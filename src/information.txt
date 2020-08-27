@@ -1,0 +1,9 @@
+https://developers.google.com/custom-search/v1/using_rest -> identify your application
+https://cse.google.com/cse/create/new -> sites to search = www.google.com -> search engine = google -> toggle = search the entire web -> get = search engine id
+
+after providing search query, when we press enter, the search term is pushed into data layer. Then on the search page, 
+we can pull it using use state values (now we have that search term). Then we use our custom hook; use google search,
+pass the query by making a call to the google custom search api and then we return data as object.
+
+Project Console: https://console.firebase.google.com/project/clone-56aa5/overview
+Hosting URL: https://clone-56aa5.web.app
